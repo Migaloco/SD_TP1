@@ -1,0 +1,19 @@
+posts-rest-service-mainclass= microgram.impl.srv.rest.PostsRestServer
+posts-rest-service-port=7772
+
+profiles-rest-service-mainclass= microgram.impl.srv.rest.ProfilesRestServer
+profiles-rest-service-port=7777
+
+mediastorage-rest-service-mainclass=microgram.impl.srv.rest.RestMediaStorageServer
+mediastorage-rest-service-port=7002
+
+posts-soap-service-mainclass=
+posts-soap-service-port=
+
+profiles-soap-service-mainclass=
+profiles-soap-service-port=
+
+discovery-multicast-address=226.226.226.226:2266
+discovery-finduris-timeout=5000
+
+uses-kafka-bool=false
